@@ -32,3 +32,17 @@ e.showProduct()
 var bfactory = ConcreteFactoryB()
 var e2 = Environment(factory: bfactory)
 e2.showProduct()
+
+//享元模式
+var extrinsicstatic:Int = 22
+var f :FlyweightFactory = FlyweightFactory()
+var tx = f.getFlyweight("X")
+tx.Operation(--extrinsicstatic)
+var ty = f.getFlyweight("Y")
+ty.Operation(--extrinsicstatic)
+var tz = f.getFlyweight("Z")
+tz.Operation(--extrinsicstatic)
+
+var uf:UnsharedContreteFlyweight = UnsharedContreteFlyweight()
+uf.Operation(--extrinsicstatic)
+

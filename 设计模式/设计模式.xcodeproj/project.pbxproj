@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4C153DB61A81F299004E1A39 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C153DA81A81F299004E1A39 /* Singleton.swift */; };
+		4C153DB81A825134004E1A39 /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C153DB71A825134004E1A39 /* Flyweight.swift */; };
+		4C153DBA1A8251C6004E1A39 /* ConcreteFlyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C153DB91A8251C6004E1A39 /* ConcreteFlyweight.swift */; };
+		4C153DBC1A8251DD004E1A39 /* UnsharedContreteFlyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C153DBB1A8251DD004E1A39 /* UnsharedContreteFlyweight.swift */; };
+		4C153DBE1A8253A2004E1A39 /* FlyweightFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C153DBD1A8253A2004E1A39 /* FlyweightFactory.swift */; };
 		4C5CFAE21A81D3760067852A /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5CFAE11A81D3760067852A /* Environment.swift */; };
 		4C78C2FB1A81C6650025622D /* Contrete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C2F71A81C6650025622D /* Contrete.swift */; };
 		4C78C2FC1A81C6650025622D /* ContreteA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C2F81A81C6650025622D /* ContreteA.swift */; };
@@ -45,6 +49,10 @@
 
 /* Begin PBXFileReference section */
 		4C153DA81A81F299004E1A39 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		4C153DB71A825134004E1A39 /* Flyweight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flyweight.swift; sourceTree = "<group>"; };
+		4C153DB91A8251C6004E1A39 /* ConcreteFlyweight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcreteFlyweight.swift; sourceTree = "<group>"; };
+		4C153DBB1A8251DD004E1A39 /* UnsharedContreteFlyweight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnsharedContreteFlyweight.swift; sourceTree = "<group>"; };
+		4C153DBD1A8253A2004E1A39 /* FlyweightFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyweightFactory.swift; sourceTree = "<group>"; };
 		4C5CFAE11A81D3760067852A /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Environment.swift; path = "抽象工厂/Environment.swift"; sourceTree = "<group>"; };
 		4C78C2F71A81C6650025622D /* Contrete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contrete.swift; sourceTree = "<group>"; };
 		4C78C2F81A81C6650025622D /* ContreteA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContreteA.swift; sourceTree = "<group>"; };
@@ -83,6 +91,10 @@
 		4C153DA51A81F299004E1A39 /* 享元 */ = {
 			isa = PBXGroup;
 			children = (
+				4C153DB71A825134004E1A39 /* Flyweight.swift */,
+				4C153DB91A8251C6004E1A39 /* ConcreteFlyweight.swift */,
+				4C153DBB1A8251DD004E1A39 /* UnsharedContreteFlyweight.swift */,
+				4C153DBD1A8253A2004E1A39 /* FlyweightFactory.swift */,
 			);
 			path = "享元";
 			sourceTree = "<group>";
@@ -335,20 +347,24 @@
 			files = (
 				4C78C3141A81CD210025622D /* AbstractModelA.swift in Sources */,
 				4C78C31E1A81CD8F0025622D /* ModelB2.swift in Sources */,
+				4C153DBE1A8253A2004E1A39 /* FlyweightFactory.swift in Sources */,
 				4C78C30E1A81CCDD0025622D /* AbstractFactory.swift in Sources */,
 				4C78C3071A81C79E0025622D /* Model.swift in Sources */,
 				4C78C2FD1A81C6650025622D /* ContreteB.swift in Sources */,
 				4C78C2FC1A81C6650025622D /* ContreteA.swift in Sources */,
 				4C78C3101A81CCF20025622D /* ConcreteFactoryA.swift in Sources */,
 				4C78C3161A81CD4B0025622D /* AbstractModelB.swift in Sources */,
+				4C153DBA1A8251C6004E1A39 /* ConcreteFlyweight.swift in Sources */,
 				4CE495871A812000008821AC /* main.swift in Sources */,
 				4C78C3181A81CD610025622D /* ModelA1.swift in Sources */,
 				4C5CFAE21A81D3760067852A /* Environment.swift in Sources */,
 				4C78C30B1A81C7BD0025622D /* ModelB.swift in Sources */,
 				4C78C2FB1A81C6650025622D /* Contrete.swift in Sources */,
 				4C78C3121A81CD070025622D /* ConcreteFactoryB.swift in Sources */,
+				4C153DB81A825134004E1A39 /* Flyweight.swift in Sources */,
 				4C78C3011A81C6C50025622D /* Factory1.swift in Sources */,
 				4C78C3031A81C7620025622D /* ContreteFactory1.swift in Sources */,
+				4C153DBC1A8251DD004E1A39 /* UnsharedContreteFlyweight.swift in Sources */,
 				4C78C2FE1A81C6650025622D /* Factory.swift in Sources */,
 				4C153DB61A81F299004E1A39 /* Singleton.swift in Sources */,
 				4C78C3051A81C7740025622D /* ContreteFactory2.swift in Sources */,
