@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C153DB61A81F299004E1A39 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C153DA81A81F299004E1A39 /* Singleton.swift */; };
+		4C5CFAE21A81D3760067852A /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5CFAE11A81D3760067852A /* Environment.swift */; };
+		4C78C2FB1A81C6650025622D /* Contrete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C2F71A81C6650025622D /* Contrete.swift */; };
+		4C78C2FC1A81C6650025622D /* ContreteA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C2F81A81C6650025622D /* ContreteA.swift */; };
+		4C78C2FD1A81C6650025622D /* ContreteB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C2F91A81C6650025622D /* ContreteB.swift */; };
+		4C78C2FE1A81C6650025622D /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C2FA1A81C6650025622D /* Factory.swift */; };
+		4C78C3011A81C6C50025622D /* Factory1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C3001A81C6C50025622D /* Factory1.swift */; };
+		4C78C3031A81C7620025622D /* ContreteFactory1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C3021A81C7620025622D /* ContreteFactory1.swift */; };
+		4C78C3051A81C7740025622D /* ContreteFactory2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C3041A81C7740025622D /* ContreteFactory2.swift */; };
+		4C78C3071A81C79E0025622D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C3061A81C79E0025622D /* Model.swift */; };
+		4C78C3091A81C7B10025622D /* ModelA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C3081A81C7B10025622D /* ModelA.swift */; };
+		4C78C30B1A81C7BD0025622D /* ModelB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C30A1A81C7BD0025622D /* ModelB.swift */; };
+		4C78C30E1A81CCDD0025622D /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C30D1A81CCDD0025622D /* AbstractFactory.swift */; };
+		4C78C3101A81CCF20025622D /* ConcreteFactoryA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C30F1A81CCF20025622D /* ConcreteFactoryA.swift */; };
+		4C78C3121A81CD070025622D /* ConcreteFactoryB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C3111A81CD070025622D /* ConcreteFactoryB.swift */; };
+		4C78C3141A81CD210025622D /* AbstractModelA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C3131A81CD210025622D /* AbstractModelA.swift */; };
+		4C78C3161A81CD4B0025622D /* AbstractModelB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C3151A81CD4B0025622D /* AbstractModelB.swift */; };
+		4C78C3181A81CD610025622D /* ModelA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C3171A81CD610025622D /* ModelA1.swift */; };
+		4C78C31A1A81CD720025622D /* ModelA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C3191A81CD720025622D /* ModelA2.swift */; };
+		4C78C31C1A81CD7F0025622D /* ModelB1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C31B1A81CD7F0025622D /* ModelB1.swift */; };
+		4C78C31E1A81CD8F0025622D /* ModelB2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C31D1A81CD8F0025622D /* ModelB2.swift */; };
+		4CE495871A812000008821AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE495861A812000008821AC /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CE495811A812000008821AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C153DA81A81F299004E1A39 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		4C5CFAE11A81D3760067852A /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Environment.swift; path = "抽象工厂/Environment.swift"; sourceTree = "<group>"; };
+		4C78C2F71A81C6650025622D /* Contrete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contrete.swift; sourceTree = "<group>"; };
+		4C78C2F81A81C6650025622D /* ContreteA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContreteA.swift; sourceTree = "<group>"; };
+		4C78C2F91A81C6650025622D /* ContreteB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContreteB.swift; sourceTree = "<group>"; };
+		4C78C2FA1A81C6650025622D /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		4C78C3001A81C6C50025622D /* Factory1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Factory1.swift; path = "工厂/Factory1.swift"; sourceTree = "<group>"; };
+		4C78C3021A81C7620025622D /* ContreteFactory1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContreteFactory1.swift; path = "工厂/ContreteFactory1.swift"; sourceTree = "<group>"; };
+		4C78C3041A81C7740025622D /* ContreteFactory2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContreteFactory2.swift; path = "工厂/ContreteFactory2.swift"; sourceTree = "<group>"; };
+		4C78C3061A81C79E0025622D /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = "工厂/Model.swift"; sourceTree = "<group>"; };
+		4C78C3081A81C7B10025622D /* ModelA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelA.swift; path = "工厂/ModelA.swift"; sourceTree = "<group>"; };
+		4C78C30A1A81C7BD0025622D /* ModelB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelB.swift; path = "工厂/ModelB.swift"; sourceTree = "<group>"; };
+		4C78C30D1A81CCDD0025622D /* AbstractFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AbstractFactory.swift; path = "抽象工厂/AbstractFactory.swift"; sourceTree = "<group>"; };
+		4C78C30F1A81CCF20025622D /* ConcreteFactoryA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConcreteFactoryA.swift; path = "抽象工厂/ConcreteFactoryA.swift"; sourceTree = "<group>"; };
+		4C78C3111A81CD070025622D /* ConcreteFactoryB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConcreteFactoryB.swift; path = "抽象工厂/ConcreteFactoryB.swift"; sourceTree = "<group>"; };
+		4C78C3131A81CD210025622D /* AbstractModelA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AbstractModelA.swift; path = "抽象工厂/AbstractModelA.swift"; sourceTree = "<group>"; };
+		4C78C3151A81CD4B0025622D /* AbstractModelB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AbstractModelB.swift; path = "抽象工厂/AbstractModelB.swift"; sourceTree = "<group>"; };
+		4C78C3171A81CD610025622D /* ModelA1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelA1.swift; path = "抽象工厂/ModelA1.swift"; sourceTree = "<group>"; };
+		4C78C3191A81CD720025622D /* ModelA2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelA2.swift; path = "抽象工厂/ModelA2.swift"; sourceTree = "<group>"; };
+		4C78C31B1A81CD7F0025622D /* ModelB1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelB1.swift; path = "抽象工厂/ModelB1.swift"; sourceTree = "<group>"; };
+		4C78C31D1A81CD8F0025622D /* ModelB2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelB2.swift; path = "抽象工厂/ModelB2.swift"; sourceTree = "<group>"; };
+		4CE495831A812000008821AC /* 设计模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "设计模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE495861A812000008821AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CE495801A812000008821AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C153DA51A81F299004E1A39 /* 享元 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "享元";
+			sourceTree = "<group>";
+		};
+		4C153DA61A81F299004E1A39 /* 代理 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "代理";
+			sourceTree = "<group>";
+		};
+		4C153DA71A81F299004E1A39 /* 单例 */ = {
+			isa = PBXGroup;
+			children = (
+				4C153DA81A81F299004E1A39 /* Singleton.swift */,
+			);
+			path = "单例";
+			sourceTree = "<group>";
+		};
+		4C153DA91A81F299004E1A39 /* 原型 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "原型";
+			sourceTree = "<group>";
+		};
+		4C153DAA1A81F299004E1A39 /* 命令 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "命令";
+			sourceTree = "<group>";
+		};
+		4C153DAB1A81F299004E1A39 /* 建造者 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "建造者";
+			sourceTree = "<group>";
+		};
+		4C153DAC1A81F299004E1A39 /* 桥接 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "桥接";
+			sourceTree = "<group>";
+		};
+		4C153DAD1A81F299004E1A39 /* 模板 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "模板";
+			sourceTree = "<group>";
+		};
+		4C153DAE1A81F299004E1A39 /* 策略 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "策略";
+			sourceTree = "<group>";
+		};
+		4C153DAF1A81F299004E1A39 /* 组合 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "组合";
+			sourceTree = "<group>";
+		};
+		4C153DB01A81F299004E1A39 /* 职责链 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "职责链";
+			sourceTree = "<group>";
+		};
+		4C153DB11A81F299004E1A39 /* 装饰 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "装饰";
+			sourceTree = "<group>";
+		};
+		4C153DB21A81F299004E1A39 /* 观察者 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "观察者";
+			sourceTree = "<group>";
+		};
+		4C153DB31A81F299004E1A39 /* 访问者 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "访问者";
+			sourceTree = "<group>";
+		};
+		4C153DB41A81F299004E1A39 /* 适配器 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "适配器";
+			sourceTree = "<group>";
+		};
+		4C153DB51A81F299004E1A39 /* 门面 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "门面";
+			sourceTree = "<group>";
+		};
+		4C78C2F61A81C6650025622D /* 简单工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				4C78C2F71A81C6650025622D /* Contrete.swift */,
+				4C78C2F81A81C6650025622D /* ContreteA.swift */,
+				4C78C2F91A81C6650025622D /* ContreteB.swift */,
+				4C78C2FA1A81C6650025622D /* Factory.swift */,
+			);
+			path = "简单工厂";
+			sourceTree = "<group>";
+		};
+		4C78C2FF1A81C6700025622D /* 工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				4C78C3001A81C6C50025622D /* Factory1.swift */,
+				4C78C3021A81C7620025622D /* ContreteFactory1.swift */,
+				4C78C3041A81C7740025622D /* ContreteFactory2.swift */,
+				4C78C3061A81C79E0025622D /* Model.swift */,
+				4C78C3081A81C7B10025622D /* ModelA.swift */,
+				4C78C30A1A81C7BD0025622D /* ModelB.swift */,
+			);
+			name = "工厂";
+			sourceTree = "<group>";
+		};
+		4C78C30C1A81CAE20025622D /* 抽象工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				4C78C30D1A81CCDD0025622D /* AbstractFactory.swift */,
+				4C78C30F1A81CCF20025622D /* ConcreteFactoryA.swift */,
+				4C78C3111A81CD070025622D /* ConcreteFactoryB.swift */,
+				4C78C3131A81CD210025622D /* AbstractModelA.swift */,
+				4C78C3151A81CD4B0025622D /* AbstractModelB.swift */,
+				4C78C3171A81CD610025622D /* ModelA1.swift */,
+				4C78C3191A81CD720025622D /* ModelA2.swift */,
+				4C78C31B1A81CD7F0025622D /* ModelB1.swift */,
+				4C78C31D1A81CD8F0025622D /* ModelB2.swift */,
+				4C5CFAE11A81D3760067852A /* Environment.swift */,
+			);
+			name = "抽象工厂";
+			sourceTree = "<group>";
+		};
+		4CE4957A1A812000008821AC = {
+			isa = PBXGroup;
+			children = (
+				4CE495851A812000008821AC /* 设计模式 */,
+				4CE495841A812000008821AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CE495841A812000008821AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CE495831A812000008821AC /* 设计模式 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CE495851A812000008821AC /* 设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				4C153DA51A81F299004E1A39 /* 享元 */,
+				4C153DA61A81F299004E1A39 /* 代理 */,
+				4C153DA71A81F299004E1A39 /* 单例 */,
+				4C153DA91A81F299004E1A39 /* 原型 */,
+				4C153DAA1A81F299004E1A39 /* 命令 */,
+				4C153DAB1A81F299004E1A39 /* 建造者 */,
+				4C153DAC1A81F299004E1A39 /* 桥接 */,
+				4C153DAD1A81F299004E1A39 /* 模板 */,
+				4C153DAE1A81F299004E1A39 /* 策略 */,
+				4C153DAF1A81F299004E1A39 /* 组合 */,
+				4C153DB01A81F299004E1A39 /* 职责链 */,
+				4C153DB11A81F299004E1A39 /* 装饰 */,
+				4C153DB21A81F299004E1A39 /* 观察者 */,
+				4C153DB31A81F299004E1A39 /* 访问者 */,
+				4C153DB41A81F299004E1A39 /* 适配器 */,
+				4C153DB51A81F299004E1A39 /* 门面 */,
+				4C78C30C1A81CAE20025622D /* 抽象工厂 */,
+				4C78C2FF1A81C6700025622D /* 工厂 */,
+				4C78C2F61A81C6650025622D /* 简单工厂 */,
+				4CE495861A812000008821AC /* main.swift */,
+			);
+			path = "设计模式";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CE495821A812000008821AC /* 设计模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE4958A1A812000008821AC /* Build configuration list for PBXNativeTarget "设计模式" */;
+			buildPhases = (
+				4CE4957F1A812000008821AC /* Sources */,
+				4CE495801A812000008821AC /* Frameworks */,
+				4CE495811A812000008821AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "设计模式";
+			productName = "设计模式";
+			productReference = 4CE495831A812000008821AC /* 设计模式 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CE4957B1A812000008821AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Bert;
+				TargetAttributes = {
+					4CE495821A812000008821AC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 4CE4957E1A812000008821AC /* Build configuration list for PBXProject "设计模式" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CE4957A1A812000008821AC;
+			productRefGroup = 4CE495841A812000008821AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CE495821A812000008821AC /* 设计模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CE4957F1A812000008821AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C78C3141A81CD210025622D /* AbstractModelA.swift in Sources */,
+				4C78C31E1A81CD8F0025622D /* ModelB2.swift in Sources */,
+				4C78C30E1A81CCDD0025622D /* AbstractFactory.swift in Sources */,
+				4C78C3071A81C79E0025622D /* Model.swift in Sources */,
+				4C78C2FD1A81C6650025622D /* ContreteB.swift in Sources */,
+				4C78C2FC1A81C6650025622D /* ContreteA.swift in Sources */,
+				4C78C3101A81CCF20025622D /* ConcreteFactoryA.swift in Sources */,
+				4C78C3161A81CD4B0025622D /* AbstractModelB.swift in Sources */,
+				4CE495871A812000008821AC /* main.swift in Sources */,
+				4C78C3181A81CD610025622D /* ModelA1.swift in Sources */,
+				4C5CFAE21A81D3760067852A /* Environment.swift in Sources */,
+				4C78C30B1A81C7BD0025622D /* ModelB.swift in Sources */,
+				4C78C2FB1A81C6650025622D /* Contrete.swift in Sources */,
+				4C78C3121A81CD070025622D /* ConcreteFactoryB.swift in Sources */,
+				4C78C3011A81C6C50025622D /* Factory1.swift in Sources */,
+				4C78C3031A81C7620025622D /* ContreteFactory1.swift in Sources */,
+				4C78C2FE1A81C6650025622D /* Factory.swift in Sources */,
+				4C153DB61A81F299004E1A39 /* Singleton.swift in Sources */,
+				4C78C3051A81C7740025622D /* ContreteFactory2.swift in Sources */,
+				4C78C31A1A81CD720025622D /* ModelA2.swift in Sources */,
+				4C78C31C1A81CD7F0025622D /* ModelB1.swift in Sources */,
+				4C78C3091A81C7B10025622D /* ModelA.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4CE495881A812000008821AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CE495891A812000008821AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4CE4958B1A812000008821AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CE4958C1A812000008821AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CE4957E1A812000008821AC /* Build configuration list for PBXProject "设计模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE495881A812000008821AC /* Debug */,
+				4CE495891A812000008821AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CE4958A1A812000008821AC /* Build configuration list for PBXNativeTarget "设计模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE4958B1A812000008821AC /* Debug */,
+				4CE4958C1A812000008821AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CE4957B1A812000008821AC /* Project object */;
+}
