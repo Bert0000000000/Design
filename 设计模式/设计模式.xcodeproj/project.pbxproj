@@ -33,6 +33,12 @@
 		4C78C31C1A81CD7F0025622D /* ModelB1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C31B1A81CD7F0025622D /* ModelB1.swift */; };
 		4C78C31E1A81CD8F0025622D /* ModelB2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C31D1A81CD8F0025622D /* ModelB2.swift */; };
 		4CE495871A812000008821AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE495861A812000008821AC /* main.swift */; };
+		4CE699AB1A863C8B00D24B80 /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE699AA1A863C8B00D24B80 /* Proxy.swift */; };
+		4CE699AD1A863CA200D24B80 /* RealSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE699AC1A863CA200D24B80 /* RealSubject.swift */; };
+		4CE699AF1A863CB400D24B80 /* subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE699AE1A863CB400D24B80 /* subject.swift */; };
+		4CE699B11A8640DA00D24B80 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE699B01A8640DA00D24B80 /* Prototype.swift */; };
+		4CE699B31A8640F900D24B80 /* ContretePrototype1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE699B21A8640F900D24B80 /* ContretePrototype1.swift */; };
+		4CE699B51A86410900D24B80 /* ContretePrototype2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE699B41A86410900D24B80 /* ContretePrototype2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -75,6 +81,12 @@
 		4C78C31D1A81CD8F0025622D /* ModelB2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelB2.swift; path = "抽象工厂/ModelB2.swift"; sourceTree = "<group>"; };
 		4CE495831A812000008821AC /* 设计模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "设计模式"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE495861A812000008821AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4CE699AA1A863C8B00D24B80 /* Proxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
+		4CE699AC1A863CA200D24B80 /* RealSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealSubject.swift; sourceTree = "<group>"; };
+		4CE699AE1A863CB400D24B80 /* subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = subject.swift; sourceTree = "<group>"; };
+		4CE699B01A8640DA00D24B80 /* Prototype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
+		4CE699B21A8640F900D24B80 /* ContretePrototype1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContretePrototype1.swift; sourceTree = "<group>"; };
+		4CE699B41A86410900D24B80 /* ContretePrototype2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContretePrototype2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +114,9 @@
 		4C153DA61A81F299004E1A39 /* 代理 */ = {
 			isa = PBXGroup;
 			children = (
+				4CE699AA1A863C8B00D24B80 /* Proxy.swift */,
+				4CE699AC1A863CA200D24B80 /* RealSubject.swift */,
+				4CE699AE1A863CB400D24B80 /* subject.swift */,
 			);
 			path = "代理";
 			sourceTree = "<group>";
@@ -117,6 +132,9 @@
 		4C153DA91A81F299004E1A39 /* 原型 */ = {
 			isa = PBXGroup;
 			children = (
+				4CE699B01A8640DA00D24B80 /* Prototype.swift */,
+				4CE699B21A8640F900D24B80 /* ContretePrototype1.swift */,
+				4CE699B41A86410900D24B80 /* ContretePrototype2.swift */,
 			);
 			path = "原型";
 			sourceTree = "<group>";
@@ -345,7 +363,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE699AD1A863CA200D24B80 /* RealSubject.swift in Sources */,
 				4C78C3141A81CD210025622D /* AbstractModelA.swift in Sources */,
+				4CE699AB1A863C8B00D24B80 /* Proxy.swift in Sources */,
 				4C78C31E1A81CD8F0025622D /* ModelB2.swift in Sources */,
 				4C153DBE1A8253A2004E1A39 /* FlyweightFactory.swift in Sources */,
 				4C78C30E1A81CCDD0025622D /* AbstractFactory.swift in Sources */,
@@ -367,10 +387,14 @@
 				4C153DBC1A8251DD004E1A39 /* UnsharedContreteFlyweight.swift in Sources */,
 				4C78C2FE1A81C6650025622D /* Factory.swift in Sources */,
 				4C153DB61A81F299004E1A39 /* Singleton.swift in Sources */,
+				4CE699B31A8640F900D24B80 /* ContretePrototype1.swift in Sources */,
 				4C78C3051A81C7740025622D /* ContreteFactory2.swift in Sources */,
 				4C78C31A1A81CD720025622D /* ModelA2.swift in Sources */,
+				4CE699B11A8640DA00D24B80 /* Prototype.swift in Sources */,
 				4C78C31C1A81CD7F0025622D /* ModelB1.swift in Sources */,
+				4CE699AF1A863CB400D24B80 /* subject.swift in Sources */,
 				4C78C3091A81C7B10025622D /* ModelA.swift in Sources */,
+				4CE699B51A86410900D24B80 /* ContretePrototype2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
