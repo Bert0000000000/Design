@@ -9,12 +9,19 @@
 import Cocoa
 
 class Prototype: NSObject {
-    var id:String
+    var id:String{
+        get{
+            return self.id;
+        }
+        set{
+            self.id = newValue
+        }
+    }
     init(var id:String){
-        self.id = id
+        
     }
     
     func Clone()->Prototype{
-        return Prototype(id: "1");
+        return Prototype(id: id);
     }
 }

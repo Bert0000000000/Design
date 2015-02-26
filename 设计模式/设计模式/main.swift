@@ -45,3 +45,14 @@ uf.Operation(--extrinsicstatic)
 //代理模式
 var p = Proxy()
 p.Request()
+//原型模式
+var p1 = ContretePrototype1(id: "I")
+var c1 = p1.Clone();
+var p2 = ContretePrototype2(id: "II")
+var c2 = p2.Clone();
+
+println("Clone 1:\(c1.id)  Clone 2:\(c2.id)")
+
+
+
+

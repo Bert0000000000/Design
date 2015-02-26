@@ -12,4 +12,7 @@ class ContretePrototype1: Prototype {
     override init(var id:String){
         super.init(id:id)
     }
+    override func Clone() -> Prototype {
+        return self.copy() as Prototype;
+    }
 }
